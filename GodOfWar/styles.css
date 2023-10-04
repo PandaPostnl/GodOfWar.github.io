@@ -1,0 +1,85 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+h1 {
+    color: red;
+}
+*{
+    padding: 0;
+    margin 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+ }
+ header{
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparant;
+
+ 
+ }
+ .logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+ }
+ .navlist{
+    display: flex;
+ }
+ .navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+ }
+ .navlist a:hover{
+    border-bottom: 2px solid white;
+ }
+ #menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+ }
+ .hero{ 
+    height: 100%;
+    width: 130%;
+    width: 2000px;
+    height: 1000px;
+    min-height: 100vh;
+    background-color: blue;   
+    background-image: url("./images/background.jpg"); 
+    background-repeat: no-repeat;  
+    position: relative;
+    display: grid;
+    grid-template-columns:  ; 
+    align-items: center;
+    gap: ;
+    padding: 0 26%;
+    
+ }
+ .hero-text h2{
+    padding: 0 21%;
+    width: ;
+ 
+ }
+ .hero-img{
+    padding-top: 6%;
+    margin-bottom: ;
+ }
+
+ .hero-text a{
+width: 80%;
+height: 120px;
+ }
