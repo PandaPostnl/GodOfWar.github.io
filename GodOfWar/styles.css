@@ -1,13 +1,9 @@
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-}
-h1 {
-    color: red;
-}
+
+
+
 *{
-    padding: 0;
-    margin 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style: none;
@@ -22,7 +18,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding: 33px 9%;
-    background: transparant;
+
 
  
  }
@@ -54,32 +50,48 @@ h1 {
  }
  .hero{ 
     height: 100%;
-    width: 130%;
-    width: 2000px;
-    height: 1000px;
+    width: 100%;
+    height: ;
     min-height: 100vh;
-    background-color: blue;   
+    background-color:#a9babc;   
     background-image: url("./images/background.jpg"); 
     background-repeat: no-repeat;  
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: multiply;
     position: relative;
     display: grid;
     grid-template-columns:  ; 
     align-items: center;
     gap: ;
-    padding: 0 26%;
+    color: white; 
     
  }
  .hero-text h2{
-    padding: 0 21%;
+    padding: ;
     width: ;
+    text-align: center;
  
  }
  .hero-img{
     padding-top: 6%;
-    margin-bottom: ;
+    padding: 0 26%;
+    padding-top: 4%;
+    filter: brightness();
  }
 
- .hero-text a{
-width: 80%;
-height: 120px;
+ .hero-text img{
+   margin-left: 10%;
+   margin-right: 6.5%;
+   margin-bottom: 1%;
+   padding-left: ;
+   object-fit: cover;
+   width: 230px;
+height: 300px;
+alig: center;
+opacity: 100%;
+border: 5px solid #EAECEC;
+
+
  }
